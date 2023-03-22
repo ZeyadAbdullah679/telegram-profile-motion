@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">telegram_profile_motion</string>
+    <string name="vert_menu">vert menu</string>
+    <string name="back_arrow">back arrow</string>
+    <string name="zeyad_abdullah">Zeyad Abdullah</string>
+    <string name="last_seen_recently">last seen recently</string>
+    <string name="link_invite">t.me/zeyadgalal679</string>
+    <string name="notifications">Notifications</string>
+    <string name="on">On</string>
+    <string name="media">Media</string>
+    <string name="files">Files</string>
+    <string name="links">Links</string>
+    <string name="telegram">Telegram</string>
+</resources>

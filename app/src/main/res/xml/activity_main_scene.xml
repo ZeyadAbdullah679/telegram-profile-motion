@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/small_pic"
+        motion:constraintSetStart="@id/mid_pic"
+        motion:duration="1000">
+       <KeyFrameSet>
+       </KeyFrameSet>
+        <OnSwipe motion:dragDirection="dragUp"
+            motion:touchAnchorId="@+id/content"
+            />
+    </Transition>
+
+    <ConstraintSet android:id="@+id/mid_pic">
+        <Constraint
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintEnd_toStartOf="@+id/app_bar" />
+        <Constraint
+            android:id="@+id/last_seen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintStart_toStartOf="@+id/name" />
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintStart_toStartOf="@+id/profile_photo" />
+        <Constraint
+            android:id="@+id/last_seen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintStart_toStartOf="@+id/name" />
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintStart_toStartOf="@+id/profile_photo" />
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintStart_toStartOf="@+id/profile_photo" />
+        <Constraint
+            android:id="@+id/last_seen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintStart_toStartOf="@+id/name" />
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintStart_toStartOf="@+id/profile_photo" />
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintStart_toStartOf="@+id/profile_photo" />
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintStart_toStartOf="@+id/profile_photo" />
+        <Constraint
+            android:id="@+id/last_seen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintStart_toStartOf="@+id/name" />
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintStart_toStartOf="@+id/profile_photo" />
+        <Constraint
+            android:id="@+id/last_seen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintStart_toStartOf="@+id/name" />
+        <Constraint
+            android:id="@+id/last_seen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintStart_toStartOf="@+id/name" />
+        <Constraint
+            android:id="@+id/last_seen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintStart_toStartOf="@+id/name" />
+        <Constraint
+            android:id="@+id/last_seen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintStart_toStartOf="@+id/name" />
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintStart_toStartOf="@+id/profile_photo" />
+        <Constraint
+            android:id="@+id/last_seen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintStart_toStartOf="@+id/name" />
+        <Constraint
+            android:id="@+id/app_bar"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="128dp"
+            motion:layout_constraintBottom_toTopOf="@id/content"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/small_pic">
+        <Constraint
+            android:id="@+id/profile_photo"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            motion:layout_constraintStart_toEndOf="@id/back_arrow"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp" />
+        <Constraint
+            android:id="@+id/name"
+            motion:layout_constraintStart_toEndOf="@+id/profile_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintVertical_bias="0.294"
+            android:layout_marginStart="@dimen/normal_spacing"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintTop_toBottomOf="@+id/name"
+            motion:layout_editor_absoluteX="187dp"
+            android:id="@+id/last_seen"
+            motion:layout_constraintStart_toEndOf="@+id/profile_photo"
+            android:layout_marginStart="16dp" />
+        <Constraint
+            android:layout_height="50dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="@+id/last_seen"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/app_bar" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@+id/big_pic"
+        >
+        <Constraint
+            android:layout_height="268dp"
+            android:layout_width="391dp"
+            android:id="@+id/profile_photo"
+            android:scaleX="1"
+            android:scaleY="1"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:visibility="visible" />
+        <Constraint
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/name"
+            motion:layout_constraintBottom_toTopOf="@+id/last_seen"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="42dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:layout_marginBottom="4dp" />
+        <Constraint
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/last_seen"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintBottom_toBottomOf="@+id/profile_photo"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="16dp"
+            android:scaleX="1.1"
+            android:scaleY="1.1" />
+        <Constraint
+            android:id="@+id/app_bar"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="268dp"
+            motion:layout_constraintBottom_toTopOf="@id/content"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+    </ConstraintSet>
+    <Transition
+        motion:constraintSetStart="@+id/mid_pic"
+        motion:constraintSetEnd="@+id/big_pic"
+        motion:duration="1000" >
+        <KeyFrameSet>
+        </KeyFrameSet>
+        <OnSwipe motion:dragDirection="dragDown"
+            motion:touchAnchorId="@+id/content"
+            />
+    </Transition>
+</MotionScene>
